@@ -31,10 +31,13 @@
     "linter"
   ],
   "dependencies": {
+    "@openapi-contrib/json-schema-to-openapi-schema": "^1.2.0",
+    "ajv": "^6.12.4",
     "commander": "^2.18.0",
+    "core-js": "^3.6.5",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "json-schema-to-openapi-schema": "^0.3.0",
+    "mobx": "^5.15.6",
     "nconf": "^0.10.0",
     "nconf-yaml": "^1.0.2",
     "node-fetch": "^2.3.0",
@@ -42,7 +45,11 @@
     "oas-linter": "^3.0.0",
     "oas-resolver": "^2.2.4",
     "oas-validator": "^3.0.1",
-    "redoc": "v2.0.0-rc.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "redoc": "^2.0.0-rc.40",
+    "styled-components": "^5.1.1",
+    "webpack": "^4.44.1",
     "yaml": "^1.5.0"
   },
   "devDependencies": {
