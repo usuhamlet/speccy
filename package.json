@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest --coverage"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "preferGlobal": true,
   "repository": {
     "url": "https://github.com/wework/speccy.git",
