@@ -6,7 +6,7 @@ const fs = require('fs');
 const yaml = require('yaml');
 const config = require('./lib/config.js');
 const loader = require('./lib/loader.js');
-const fromJsonSchema = require('json-schema-to-openapi-schema');
+const fromJsonSchema = require('@openapi-contrib/json-schema-to-openapi-schema');
 
 const command = async (file, cmd) => {
     config.init(cmd);
@@ -54,7 +54,7 @@ const buildLoaderOptions = (jsonSchema, verbose, internalRefs) => {
     };
     if (jsonSchema) options.filters.push(fromJsonSchema);
     if (internalRefs) options.resolveInternal = true;
-    
+
     return options;
 }
 
